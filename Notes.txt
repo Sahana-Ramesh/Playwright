@@ -1,0 +1,19 @@
+Project structure-->
+1) Node modules: most imp, all the playwright related modules will be part of this.
+2)Tests: Default folder where all the tests will be created spec.js 
+3) Playwright config.js: will manage the playwright/project configuration.
+testDir:'./tests'= meaning all the test we create, by default it will be part of test directory
+4) package.json: node project management file , xml file to specify all the dependency modules 
+----------------------------------------------------------------------------------------------------
+
+Run playwight test-->
+npx playwright test 			   //Run all the tests
+npx playwright test name_of_test	   //Run specific test
+npx playwright test name_of_test --headed  //for headed mode
+npx playwright test name_of_test --project=chromium --headed //execute only in chrome with UI
+npx playwright test name_of_test --project=chromium --headed --debug //Run test in debug mode
+npx playwright show-report    		   //to open last HTML report run
+----------------------------------------------------------------
+
+How to create and run playwright tests-->
+
